@@ -1,0 +1,36 @@
+name: "WCOSS2 software request"
+description: "Initiate software installation request for WCOSS2"
+title: "[INSTALL]: "
+labels: []
+assignees: [Hang-Lei-NOAA]
+
+body:
+  - type: input
+    attributes:
+      label: Package name
+      placeholder: hdf5
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Package version/tag
+      placeholder: 1.2.3
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Build options
+      description: What build options do you need for your application (put "none" if no particular build options are needed, or "current" to keep the current build options)?
+      placeholder: Needs MPI support; +jpeg option
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the need for this installation, including what application(s) it is for
+      placeholder: Needed for GFS v45 upgrade
+    validations:
+      required: true

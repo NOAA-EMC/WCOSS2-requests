@@ -4,9 +4,7 @@ This repository handles WCOSS2 installation requests for software.
 
 ## Responsible Developers
 
-[Hang Lei](mailto:hang.lei@noaa.gov), [Edward
-Hartnett](mailto:edward.hartnett@noaa.gov), [Alex
-Richert](mailto:alexander.richert@noaa.gov)
+[Hang Lei](mailto:hang.lei@noaa.gov), [Alex Richert](mailto:alexander.richert@noaa.gov)
 
 ## Making a Request
 
